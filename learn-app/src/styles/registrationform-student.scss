@@ -1,0 +1,92 @@
+.registration-trainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: auto;
+	margin-bottom: 80px;
+
+	.heading {
+		font-family: Montserrat;
+		font-size: 48px;
+		font-weight: 700;
+		line-height: 68px;
+		color: #171a1fff;
+	}
+
+	.subtext {
+		font-family: Poppins;
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 28px;
+		color: #9095a0ff;
+		margin-bottom: 39px;
+	}
+
+	.container2 {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+
+		img {
+			display: flex;
+			width: 451px;
+			height: 625px;
+			border-radius: 12px;
+		}
+
+		gap: 96px;
+
+		form {
+			display: flex;
+			flex-direction: column;
+
+			label {
+				font-family: Montserrat;
+				font-size: 14px;
+				font-weight: 700;
+				line-height: 22px;
+			}
+
+			input {
+				width: 451px;
+				height: 52px;
+				padding-left: 20px;
+				padding-right: 20px;
+				font-family: Poppins;
+				font-size: 18px;
+				font-weight: 400;
+				line-height: 28px;
+				background: #ffffff;
+				border-radius: 6px;
+				border-width: 1px;
+				border-color: #6255d8ff;
+				outline: none;
+				margin-bottom: 24px;
+			}
+
+			button {
+				width: 451px;
+				height: 52px;
+				padding: 0 20px;
+				font-family: Poppins;
+				font-size: 18px;
+				font-weight: 400;
+				line-height: 28px;
+				color: #ffffffff;
+				background: #6355d8ff;
+				opacity: 1;
+				border: none;
+				border-radius: 6px;
+				margin-top: 0px;
+			}
+
+			button:hover {
+				color: #ffffff;
+				background: #4d3ed3ff;
+			}
+		}
+	}
+}

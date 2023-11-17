@@ -1,0 +1,28 @@
+.pricing-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	h1 {
+		font-family: Montserrat;
+		font-size: 56px;
+		margin: 20px;
+	}
+
+	p {
+		font-family: Poppins;
+		font-size: 20px;
+		color: #9095a0ff;
+		margin: 40px;
+		width: 80vh;
+	}
+
+	.pricing-image {
+		margin: 40px;
+	}
+
+	.questions-image {
+		margin: 40px;
+	}
+}

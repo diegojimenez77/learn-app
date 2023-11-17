@@ -1,0 +1,209 @@
+.profile-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	h1 {
+		font-family: Montserrat;
+		font-size: 56px;
+		margin: 40px;
+	}
+
+	.container {
+		display: flex;
+		align-items: baseline;
+		justify-content: center;
+		flex-direction: row;
+
+		.data {
+			margin: 10px;
+			h3 {
+				font-family: Montserrat;
+				font-size: 32px;
+				margin-bottom: 20px;
+			}
+
+			img {
+				width: 160px;
+				height: 160px;
+				object-fit: cover;
+				border-radius: 20px;
+			}
+
+			label {
+				font-family: Poppins;
+				font-weight: bold;
+			}
+
+			span {
+				font-family: Poppins;
+			}
+		}
+		.my-trainers {
+			margin: 40px;
+
+			.head {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				h3 {
+					font-family: Montserrat;
+					font-size: 32px;
+					margin-bottom: 20px;
+				}
+				button {
+					margin: 10px 20px;
+					width: 150px;
+					height: 40px;
+					padding: 0 20px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					font-family: Poppins; /* Body */
+					font-size: 16px;
+					font-weight: 400;
+					line-height: 26px;
+					color: #ffffffff; /* white */
+					background: #6355d8ff; /* primary-500 */
+					opacity: 1;
+					border: none;
+					border-radius: 6px; /* border-m */
+				}
+				button:hover {
+					color: #ffffffff; /* white */
+					background: #4d3ed3ff; /* primary-550 */
+				}
+			}
+			th,
+			td {
+				font-family: Poppins;
+				padding: 10px;
+				margin: 10px;
+			}
+			.table-names {
+				font-weight: bold;
+			}
+		}
+	}
+
+	.buttons {
+		display: flex;
+		margin-bottom: 50px;
+		.buttons-left {
+			display: flex;
+			flex-direction: row;
+			margin-right: 70px;
+			#edit {
+				margin: 10px 20px;
+				width: 200px;
+				height: 40px;
+				padding: 0 20px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-family: Poppins; /* Body */
+				font-size: 16px;
+				font-weight: 400;
+				line-height: 26px;
+				color: #ffffffff; /* white */
+				background: #6355d8ff; /* primary-500 */
+				opacity: 1;
+				border: none;
+				border-radius: 6px; /* border-m */
+			}
+			#edit:hover {
+				color: #ffffffff; /* white */
+				background: #4d3ed3ff; /* primary-550 */
+			}
+			#change {
+				margin: 10px 20px;
+				width: 200px;
+				height: 40px;
+				padding: 0 20px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-family: Poppins; /* Body */
+				font-size: 16px;
+				font-weight: 400;
+				line-height: 26px;
+				color: #ffffffff; /* white */
+				background: #36b584ff; /* primary-500 */
+				opacity: 1;
+				border: none;
+				border-radius: 6px; /* border-m */
+			}
+			#change:hover {
+				color: #ffffffff; /* white */
+				background: rgb(115, 225, 183); /* primary-550 */
+			}
+		}
+		.buttons-right {
+			button {
+				margin: 10px 20px;
+				width: 200px;
+				height: 40px;
+				padding: 0 20px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-family: Poppins; /* Body */
+				font-size: 16px;
+				font-weight: 400;
+				line-height: 26px;
+				color: #ffffffff; /* white */
+				background: #ed5d56ff; /* primary-500 */
+				opacity: 1;
+				border: none;
+				border-radius: 6px; /* border-m */
+			}
+			button:hover {
+				color: #ffffffff; /* white */
+				background: rgb(238, 137, 132); /* primary-550 */
+			}
+		}
+	}
+
+	.my-trainings {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+
+		h1 {
+			font-family: Montserrat;
+			margin: 20px;
+		}
+
+		p {
+			font-family: Poppins;
+			max-width: 600px;
+			color: #171a1fff;
+			margin: 20px;
+		}
+
+		button {
+			margin: 10px 20px;
+			width: 200px;
+			height: 40px;
+			padding: 0 20px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-family: Poppins; /* Body */
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 26px;
+			color: #ffffffff; /* white */
+			background: #6355d8ff; /* primary-500 */
+			opacity: 1;
+			border: none;
+			border-radius: 6px; /* border-m */
+		}
+		button:hover {
+			color: #ffffffff; /* white */
+			background: rgb(115, 104, 209); /* primary-550 */
+		}
+	}
+}
